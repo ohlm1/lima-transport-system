@@ -1,0 +1,11 @@
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\LTS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\LTS.Domain.AssemblyInfoInputs.cache
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\LTS.Domain.AssemblyInfo.cs
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\LTS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\bin\Debug\net10.0\LTS.Domain.deps.json
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\bin\Debug\net10.0\LTS.Domain.dll
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\bin\Debug\net10.0\LTS.Domain.pdb
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\LTS.Domain.dll
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\refint\LTS.Domain.dll
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\LTS.Domain.pdb
+C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Domain\obj\Debug\net10.0\ref\LTS.Domain.dll
