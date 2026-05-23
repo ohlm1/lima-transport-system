@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8DH9tEaPKP8=",
+  "dgSpecHash": "fxveckKPweI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj",
+  "projectFilePath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lucas Lima\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.8\\microsoft.entityframeworkcore.10.0.8.nupkg.sha512",
     "C:\\Users\\Lucas Lima\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.8\\microsoft.entityframeworkcore.abstractions.10.0.8.nupkg.sha512",

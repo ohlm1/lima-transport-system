@@ -265,19 +265,6 @@
           }
         }
       },
-      "LTS.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v10.0",
-        "dependencies": {
-          "LTS.Domain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/LTS.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/LTS.Application.dll": {}
-        }
-      },
       "LTS.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
@@ -712,11 +699,6 @@
         "postgresql.png"
       ]
     },
-    "LTS.Application/1.0.0": {
-      "type": "project",
-      "path": "../LTS.Application/LTS.Application.csproj",
-      "msbuildProject": "../LTS.Application/LTS.Application.csproj"
-    },
     "LTS.Domain/1.0.0": {
       "type": "project",
       "path": "../LTS.Domain/LTS.Domain.csproj",
@@ -725,7 +707,6 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
-      "LTS.Application >= 1.0.0",
       "LTS.Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 10.0.8",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 10.0.1"
@@ -737,11 +718,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj",
       "projectName": "LTS.Infrastructure.Data",
-      "projectPath": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj",
+      "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj",
       "packagesPath": "C:\\Users\\Lucas Lima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\obj\\",
+      "outputPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucas Lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -759,11 +740,8 @@
           "framework": "net10.0",
           "targetAlias": "net10.0",
           "projectReferences": {
-            "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Application\\LTS.Application.csproj": {
-              "projectPath": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Application\\LTS.Application.csproj"
-            },
-            "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj": {
-              "projectPath": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj"
+            "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj": {
+              "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj"
             }
           }
         }

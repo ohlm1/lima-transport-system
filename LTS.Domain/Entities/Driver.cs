@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.ConstrainedExecution;
 
 namespace LTS.Domain.Entities
 {
@@ -25,13 +26,13 @@ namespace LTS.Domain.Entities
         public Driver(string name, string cpf, string cnh, string phone)
         {
             if (string.IsNullOrWhiteSpace(name))
-                throw new ArgumentException("Name cannot be empty.", nameof(name));
+                throw new ArgumentException("O nome do motorista não pode ser vazio.", nameof(name));
 
             if (string.IsNullOrWhiteSpace(cpf) || cpf.Length != 11)
-                throw new ArgumentException("Invalid CPF. It must have exactly 11 characters.", nameof(cpf));
+                throw new ArgumentException("CPF inválido. O campo deve conter exatamente 11 caracteres.", nameof(cpf));
 
             if (string.IsNullOrWhiteSpace(cnh))
-                throw new ArgumentException("CNH cannot be empty.", nameof(cnh));
+                throw new ArgumentException("A CNH não pode ser vazia.", nameof(cnh));
 
             Name = name;
             Cpf = cpf;

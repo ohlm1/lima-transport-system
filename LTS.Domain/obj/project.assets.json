@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj",
       "projectName": "LTS.Domain",
-      "projectPath": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj",
+      "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj",
       "packagesPath": "C:\\Users\\Lucas Lima\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucas Lima\\Desktop\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\obj\\",
+      "outputPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Lucas Lima\\AppData\\Roaming\\NuGet\\NuGet.Config",
