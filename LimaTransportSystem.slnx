@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="../LTS.API/LTS.API.csproj" />
   <Project Path="LTS.Application/LTS.Application.csproj" />
   <Project Path="LTS.Domain/LTS.Domain.csproj" />
   <Project Path="LTS.Infrastructure.Data/LTS.Infrastructure.Data.csproj" />
