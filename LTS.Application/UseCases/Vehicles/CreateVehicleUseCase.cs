@@ -2,6 +2,7 @@
 using System.Threading.Tasks;
 using LTS.Application.Interfaces;
 using LTS.Domain.Entities;
+using LTS.Domain.Interfaces;
 
 namespace LTS.Application.UseCases.Vehicles
 {

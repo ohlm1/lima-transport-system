@@ -1,12 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using LTS.Domain.Entities;
+﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using LTS.Domain.Entities;
+using LTS.Domain.Interfaces;
 using LTS.Infrastructure.Data.Context;
 
 namespace LTS.Infrastructure.Data.Repositories
 {
-    public class VehicleRepository
+    public class VehicleRepository : IVehicleRepository
     {
         private readonly AppDbContext _context;
 
@@ -14,9 +16,8 @@ namespace LTS.Infrastructure.Data.Repositories
         {
             _context = context;
         }
-    
-    
-    public async Task AddAsync(Vehicle vehicle)
+
+        public async Task AddAsync(Vehicle vehicle)
         {
             await _context.Vehicles.AddAsync(vehicle);
             await _context.SaveChangesAsync();
@@ -39,6 +40,10 @@ namespace LTS.Infrastructure.Data.Repositories
             await _context.SaveChangesAsync();
         }
 
+       
+        public async Task<Vehicle?> GetByLicensePlateAsync(string licensePlate)
+        {
+            return await _context.Vehicles.FirstOrDefaultAsync(v => v.LicensePlate == licensePlate);
+        }
     }
-
 }
