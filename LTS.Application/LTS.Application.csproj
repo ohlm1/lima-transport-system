@@ -8,7 +8,6 @@
 
 	<ItemGroup>
 		<ProjectReference Include="..\LTS.Domain\LTS.Domain.csproj" />
-		<ProjectReference Include="..\LTS.Infrastructure.Data\LTS.Infrastructure.Data.csproj" />
 	</ItemGroup>
 
 </Project>

@@ -1,15 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using LTS.Domain.Entities;
+using LTS.Domain.Interfaces;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 using LTS.Infrastructure.Data.Context;
 
 namespace LTS.Infrastructure.Data.Repositories
 {
-    public class DriverRepository
+    public class DriverRepository : IDriverRepository
     {
         private readonly AppDbContext _context;
-
 
         public DriverRepository(AppDbContext context)
         {
@@ -42,8 +42,5 @@ namespace LTS.Infrastructure.Data.Repositories
             _context.Drivers.Update(driver);
             await _context.SaveChangesAsync();
         }
-
     }
-
 }
-

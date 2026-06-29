@@ -1,6 +1,6 @@
 ﻿using LTS.Application.DTOs;
-using LTS.Infrastructure.Data.Repositories;
 using LTS.Domain.Entities;
+using LTS.Domain.Interfaces; // <- Importante para o Service enxergar a interface do repositório!
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,14 +11,14 @@ namespace LTS.Application.Services
 {
     public class DriverService : IDriverService
     {
-        private readonly DriverRepository _driverRepository;
+ 
+        private readonly IDriverRepository _driverRepository;
 
-        public DriverService(DriverRepository driverRepository)
+        public DriverService(IDriverRepository driverRepository)
         {
             _driverRepository = driverRepository;
         }
 
-        // 1. Mudamos de RegisterAsync para CreateAsync para bater com a Interface
         public async Task<DriverDto> CreateAsync(DriverDto driverDto)
         {
             if (string.IsNullOrWhiteSpace(driverDto.Name))
@@ -39,7 +39,6 @@ namespace LTS.Application.Services
 
             await _driverRepository.AddAsync(driver);
 
-            // Atualiza o ID no DTO que vamos retornar para a API
             driverDto.Id = driver.Id;
             driverDto.IsActive = driver.IsActive;
 
@@ -77,27 +76,21 @@ namespace LTS.Application.Services
             });
         }
 
-        // 2. Adicionado o UpdateAsync que o contrato pedia
         public async Task<bool> UpdateAsync(int id, DriverDto driverDto)
         {
             var driver = await _driverRepository.GetByIdAsync(id);
             if (driver == null) return false;
 
-            // Aqui você atualizará as propriedades da sua entidade baseada no DTO
-            // Exemplo: driver.UpdateInfo(driverDto.Name, driverDto.Phone...);
-
             await _driverRepository.UpdateAsync(driver);
             return true;
         }
 
-        // 3. Adicionado o DeleteAsync (Inativação) que o contrato pedia
         public async Task<bool> DeleteAsync(int id)
         {
             var driver = await _driverRepository.GetByIdAsync(id);
             if (driver == null) return false;
 
-            // Num sistema real, a gente desativa em vez de excluir
-            driver.Deactivate(); // Ou a lógica correspondente que você tiver na Entity
+            driver.Deactivate();
 
             await _driverRepository.UpdateAsync(driver);
             return true;

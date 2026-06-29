@@ -1,22 +1,4 @@
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Infrastructure.Data.deps.json
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Infrastructure.Data.dll
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Infrastructure.Data.pdb
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Application.dll
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Domain.dll
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Application.pdb
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Domain.pdb
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.csproj.AssemblyReference.cache
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.AssemblyInfoInputs.cache
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.AssemblyInfo.cs
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.csproj.CoreCompileInputs.cache
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infr.35047BDC.Up2Date
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.dll
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\refint\LTS.Infrastructure.Data.dll
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.pdb
-C:\Users\Lucas Lima\Desktop\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\ref\LTS.Infrastructure.Data.dll
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Infrastructure.Data.deps.json
-C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Infrastructure.Data.runtimeconfig.json
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Infrastructure.Data.dll
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Infrastructure.Data.pdb
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\bin\Debug\net10.0\LTS.Domain.dll
@@ -31,5 +13,4 @@ C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backe
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.dll
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\refint\LTS.Infrastructure.Data.dll
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.pdb
-C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\LTS.Infrastructure.Data.genruntimeconfig.cache
 C:\Users\Lucas Lima\OneDrive\Área de Trabalho\Projeto\LimaTransportSystem\backend\LimaTransportSystem\LTS.Infrastructure.Data\obj\Debug\net10.0\ref\LTS.Infrastructure.Data.dll

@@ -32,6 +32,9 @@
               "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Application\\LTS.Application.csproj": {
                 "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Application\\LTS.Application.csproj"
               },
+              "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj": {
+                "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj"
+              },
               "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj": {
                 "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj"
               }
@@ -61,11 +64,25 @@
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.0.8, )"
+              "version": "[10.0.0-preview.*, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[10.0.0-preview.*, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.0-preview.*, )"
+            },
+            "Swashbuckle.AspNetCore.Swagger": {
+              "target": "Package",
+              "version": "[10.2.1, )"
+            },
+            "Swashbuckle.AspNetCore.SwaggerUI": {
+              "target": "Package",
+              "version": "[10.2.1, )"
             }
           },
           "imports": [
@@ -532,9 +549,6 @@
             "projectReferences": {
               "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj": {
                 "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Domain\\LTS.Domain.csproj"
-              },
-              "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj": {
-                "projectPath": "C:\\Users\\Lucas Lima\\OneDrive\\Área de Trabalho\\Projeto\\LimaTransportSystem\\backend\\LimaTransportSystem\\LTS.Infrastructure.Data\\LTS.Infrastructure.Data.csproj"
               }
             }
           }
@@ -1236,17 +1250,11 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.0.8, )"
-            },
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.4, )"
+              "version": "[10.0.0-preview.*, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
-              "version": "[10.0.1, )"
+              "version": "[10.0.0-preview.*, )"
             }
           },
           "imports": [
